@@ -11,6 +11,8 @@ const IntroductionSection = () => {
               src="/restaurant-table.jpg"
               alt="Restaurant Interior"
               className="rounded-lg shadow-lg"
+              loading="lazy"
+              decoding="asynchronous"
             />
           </div>
 
