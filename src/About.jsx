@@ -20,6 +20,8 @@ const About = () => {
               src="/restaurant.jpg"
               alt="Restaurant Interior"
               className="rounded-lg shadow-lg"
+              loading="lazy"
+              decoding="asynchronous"
             />
           </div>
           <div className="md:w-1/2 md:pl-12">
@@ -52,6 +54,8 @@ const About = () => {
                 src="/chef-emma-davis.jpg"
                 alt="Chef 1"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
+                loading="lazy"
+                decoding="asynchronous"
               />
               <h3 className="text-xl font-bold text-gray-800">
                 Chef Emma Davis
@@ -63,6 +67,8 @@ const About = () => {
                 src="/chef-michael-lee.jpg"
                 alt="Chef 2"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
+                loading="lazy"
+                decoding="asynchronous"
               />
               <h3 className="text-xl font-bold text-gray-800">
                 Chef Michael Lee
@@ -74,6 +80,8 @@ const About = () => {
                 src="sarah-thompson.jpg"
                 alt="Manager"
                 className="w-32 h-32 rounded-full mx-auto mb-4"
+                loading="lazy"
+                decoding="asynchronous"
               />
               <h3 className="text-xl font-bold text-gray-800">
                 Sarah Thompson

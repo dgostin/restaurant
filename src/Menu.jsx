@@ -86,6 +86,8 @@ const MenuSection = ({ title, items }) => {
               src={item.image}
               alt={item.name}
               className="w-full h-48 object-cover"
+              loading="lazy"
+              decoding="asynchronous"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-800 mb-2">
