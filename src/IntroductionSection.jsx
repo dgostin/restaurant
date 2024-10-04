@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const IntroductionSection = () => {
   return (
@@ -31,12 +32,13 @@ const IntroductionSection = () => {
               savor the finest flavors in an ambiance designed to make you feel
               at home.
             </p>
-            <a
-              href="#reservation"
+
+            <Link
+              to="/reservations"
               className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
             >
               Make a Reservation
-            </a>
+            </Link>
           </div>
         </div>
       </div>

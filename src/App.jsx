@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Menu from "./Menu";
@@ -7,25 +7,14 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Reservations from "./Reservations";
+import { useLocation } from "react-router-dom";
 
 export default function App() {
   return (
     <Router>
-      <div className="bg-orange-50 min-h-screen">
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
+      <ScrollToTop />
 
+      <div className="bg-orange-50 min-h-screen">
         <Navbar />
 
         {/* A <Switch> looks through its children <Route>s and
@@ -44,6 +33,12 @@ export default function App() {
   );
 }
 
-function Users() {
-  return <h2>Users</h2>;
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
 }
