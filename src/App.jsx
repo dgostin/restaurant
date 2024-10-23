@@ -17,8 +17,6 @@ export default function App() {
       <div className="bg-orange-50 min-h-screen">
         <Navbar />
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
