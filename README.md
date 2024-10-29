@@ -1,6 +1,6 @@
 # The Savory Spoon
 
-The Savory Spoon is a static website built with Vite and React.
+The Savory Spoon is a static restaurant website built with Vite and React.
 
 ## Installation
 
