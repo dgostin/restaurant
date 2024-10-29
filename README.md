@@ -2,15 +2,6 @@
 
 The Savory Spoon is a static website built with Vite and React.
 
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Development](#development)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
-
 ## Installation
 
 To run locally for development, follow these steps:
