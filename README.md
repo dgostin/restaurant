@@ -1,8 +1,39 @@
-# React + Vite
+# The Savory Spoon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Savory Spoon is a static website built with Vite and React.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Development](#development)
+- [Environment Variables](#environment-variables)
+- [Deployment](#deployment)
+
+## Installation
+
+To run locally for development, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/dgostin/restaurant.git
+   cd restaurant
+   ```
+
+2. **Install Dependencies:**  
+   Run `npm install` in the root directory to install dependencies.
+
+   ```bash
+   npm install
+   ```
+
+## Development
+
+**Start Development Servers:**  
+ Run the development server with:
+
+```bash
+npm run dev
+```
